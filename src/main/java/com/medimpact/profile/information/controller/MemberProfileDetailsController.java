@@ -263,7 +263,6 @@ public class MemberProfileDetailsController {
 		}
 		else
 			throw new ResourceNotFoundException("Member", "id", id);
-
 		return profile;		
 	}
 
